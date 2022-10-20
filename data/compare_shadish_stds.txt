@@ -1,0 +1,12 @@
+vm 0 0 1 1
+source fake real fake real
+mathall 3.27 4.2 2.66 3.27
+vocabpre 4.71 4.85 5.08 5.59
+mathpre 2.75 2.65 2.6 2.86
+numbmath 1.09 0.91 1.13 1.37
+age 2.72 5.66 2.55 5.05
+momdegr 2.08 2.27 2.07 2.34
+daddegr 2.35 2.82 2.23 2.62
+hsgpaar 0.55 0.54 0.58 0.59
+cauc 0.49 0.49 0.49 0.5
+male 0.45 0.42 0.47 0.45
