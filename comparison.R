@@ -22,7 +22,7 @@ opt = parse_args(opt_parser)
 
 if (opt$N_workers > 1) {
   library("future.apply")
-  plan(multiprocess, workers = opt$N_workers)
+  plan(multicore, workers = opt$N_workers)
   options(future.globals.maxSize = 3000 * 1024 ^ 2)
   replicate = future_replicate
 }

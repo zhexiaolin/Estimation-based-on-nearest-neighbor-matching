@@ -1,6 +1,10 @@
 import gan_shadish
 import pandas as pd
+import numpy as np
+import torch
 
+np.random.seed(123)
+torch.manual_seed(123)
 # first redo with the original data
 output_path = "data/"
 data_path = "data/shadish.csv"
